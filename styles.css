@@ -3,7 +3,9 @@
 body {
    padding-top: 120px; 
    text-align: center;
+   font-family: 'Roboto', sans-serif;
    color: sienna;
+   
 }
 
 .header {
@@ -12,12 +14,12 @@ body {
     display: block;
     position: fixed;
     top: 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid sienna;
 }
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 100px;
     float: left;
     padding: 15px;
     vertical-align: middle;
@@ -40,10 +42,12 @@ body {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    text-decoration: underline;
     color: sienna;
+    text-decoration: underline;
+    text-decoration-color: sienna;
     font-size: 25px;
-    font-weight: bold;
+    
+   
 }
 
 .about-section {
@@ -51,16 +55,26 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-    max-width: 1200px;
-    margin:  40px auto 40px auto;
-    opacity: 0.9;
+    width: 1200px;
+    margin:  5px auto 5px auto ;
+    opacity: 0.8;
+    display: flex;
 }
 
-.text h1, h4 {
+.text {
     margin: auto;
+    background-color: white;
     width: 100%;
-    padding-top: 40px;
-    
-   
+    opacity: 0.9;
+    font-family: 'Grand Hotel' , sans-serif;
+}
 
+.text h1 {
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+.text h4 {
+    font-size: 25px;
+    margin-bottom: 50px;
 }
