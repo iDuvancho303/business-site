@@ -99,10 +99,20 @@ body {
 }
 
 .foods {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .food {
 
+}
+
+.food img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 240px;
 }
 
