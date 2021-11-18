@@ -78,13 +78,14 @@ body {
 
 .text h1 {
     font-size: 65px;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .text h4 {
     font-size: 30px;
     margin-bottom: 50px;
     letter-spacing: 4px;
+    font-weight: lighter;
 }
 
 /*ENDS ABOUT SECTION*/
@@ -94,7 +95,11 @@ body {
 
 }
 
-.content {
+.content h2 {
+    font-family: 'Grand Hotel' , sans-serif;
+    font-size: 55px;
+    letter-spacing: 20px;
+
 
 }
 
@@ -103,6 +108,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .food {
