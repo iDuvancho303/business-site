@@ -50,18 +50,25 @@ body {
    
 }
 
+/*BOUT SECTION*/
+.container {
+    min-width: 1000px;
+    margin: auto;
+}
+
 .about-section {
     background-image: url(images/Tacos\ background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-    width: 1200px;
-    margin:  5px auto 5px auto ;
+    margin: auto;
     opacity: 0.8;
     display: flex;
+    
+    
 }
 
-.text {
+.about-section .text {
     margin: auto;
     background-color: white;
     width: 100%;
@@ -77,4 +84,17 @@ body {
 .text h4 {
     font-size: 30px;
     margin-bottom: 50px;
+    letter-spacing: 4px;
 }
+
+/*ENDS ABOUT SECTION*/
+/*FOOD SECTION*/
+
+.food {
+
+}
+
+.content {
+
+}
+
