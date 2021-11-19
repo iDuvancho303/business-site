@@ -36,16 +36,15 @@ body {
     display: table;
     float: left;
     padding: 0px 30px;
+    text-decoration: none;
 }
 
 .navigation li {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: sienna;
-    text-decoration: underline;
-    text-decoration-color: sienna;
-    font-size: 25px;
+    color: sienna; 
+    font-size: 28px;
     
    
 }
@@ -176,6 +175,20 @@ body {
     text-align: center;
     background-color: white;
     border: 3px solid white;
-    
+    resize: none;
 }
 
+#submit {
+    display: block;
+    width: 200px;
+    height: 1.5rem;
+    border-radius: 5px;
+    color: sienna;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px auto;
+
+}
