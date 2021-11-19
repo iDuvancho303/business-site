@@ -137,5 +137,29 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 60px;
+}
+
+.form {
+    width: 500px;
+    background-color: sienna;
+    border-radius: 20px;
+    border: ;
+    
+}
+
+#name {
+    display: block;
+    width: 400px;
+    height: 2.0rem;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: sienna;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    
+
 }
 
