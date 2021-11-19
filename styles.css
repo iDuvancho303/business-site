@@ -51,7 +51,7 @@ body {
 }
 
 /*BOUT SECTION*/
-.container {
+#about {
     min-width: 1000px;
     margin: auto;
 }
@@ -123,10 +123,6 @@ body {
     
 }
 
-.food {
-
-}
-
 .food img {
     margin-left: auto;
     margin-right: auto;
@@ -135,6 +131,4 @@ body {
     opacity: 0.8;
 }
 
-.food h3 {
 
-}
