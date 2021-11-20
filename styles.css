@@ -77,7 +77,8 @@ body {
 
 .text h1 {
     font-size: 65px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: #8b4513;
 }
 
 .text h4 {
@@ -85,6 +86,7 @@ body {
     margin-bottom: 50px;
     letter-spacing: 4px;
     font-weight: lighter;
+    color: #8b4513;
 }
 
 /*ENDS ABOUT SECTION*/
@@ -108,7 +110,7 @@ body {
     font-family: sans-serif;
     font-size: 28px;
     color:  #5b6265;
-    font-weight: bold;
+    font-weight: lighter;
     
     
     
@@ -140,12 +142,20 @@ body {
     margin-top: 60px;
 }
 
+.catering {
+    font-size: 55px;
+    font-weight: lighter;
+    font-family: 'Grand Hotel';
+    color: sienna;
+    letter-spacing: 7px;
+
+
+}
+
 .form {
     width: 500px;
     background-color: sienna;
-    border-radius: 20px;
-    border: ;
-    
+    border-radius: 20px;    
 }
 
 
@@ -190,5 +200,18 @@ body {
     background-color: white;
     border: 1px solid white;
     margin: 20px auto;
+}
+/*ENDS CATERING SECTION*/
+/*FOLLOW SECTION*/
+#follow {
+    min-width: 1000px;
+    margin: auto; 
+}
+.links {
+    
+}
 
+.links a {
+    color: sienna;
+    font-size: 55px;
 }
