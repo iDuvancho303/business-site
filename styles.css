@@ -96,8 +96,8 @@ body {
 /*ENDS ABOUT SECTION*/
 /*FOOD SECTION*/
 
-#food {
-
+.content {
+    margin-top: 50px;
 }
 
 .content h2 {
