@@ -12,9 +12,13 @@ body {
     width: 100%;
     height: 120px;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0px;
-    border-bottom: 3px solid sienna;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 2px solid sienna;
+    background-color: white;
 }
 
 .logo {
@@ -203,15 +207,17 @@ body {
 }
 /*ENDS CATERING SECTION*/
 /*FOLLOW SECTION*/
-#follow {
-    min-width: 1000px;
-    margin: auto; 
-}
 .links {
-    
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
 }
 
 .links a {
     color: sienna;
-    font-size: 55px;
+    font-size: 70px;
+    margin: 0 30px;
 }
